@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html main {
+    box-sizing: border-box;
+}
+/****************
+HEADER AREA
+****************/
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: repeat(1, 60px);
+    text-align: center;
+    background-color: #f8f8f8;
+
+}
+#IG-Handwritting {
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 3ch;
+}
+
+input {
+    line-height: 20px;
+    font-size: 13px;
+    background-size: 20px;
+    background-image: url('https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: 0;
+    text-align: center;
+}
+#header-search {
+    display: grid;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header img {
+    margin-left: 30px;
+    width: 23px;
+    height: 23px;
+}
+.logo img {
+    border-radius: 50%;
+}
+
+/****************
+HEADER AREA END
+****************/
+
+/****************
+MAIN AREA
+****************/
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    grid-template-rows: 240px;
+    border-top: 1px solid gray;
+
+    background-color: #f7f7f7;
+}
+section div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#logo-bg img {
+    width: 200px;
+    height: 200px;
+}
+.main-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.main-items:last-child a{
+    color:blue;
+}
+#profil-name,
+#profil-bearbeiten {
+    font-size: 20px;
+}
+section img {
+    width: 50px;
+    height: 50px;
+}
+#profil-bearbeiten {
+    border: 1px solid grey;
+    font-size: 14px;
+}
+#setting-item {
+    display: grid;
+    justify-content: left;
+}
+.second-row {
+    display: grid;
+    position: relative;
+    top: -25px;
+}
+.third-row {
+    top: -45px;
+}
+#row-2th {
+    left: -80px;
+}
+#row-3th {
+    left: -150px;
+}
+.third-row,
+#row-2th,
+#row-3th {
+    position: relative;
+}
+/****************
+MAIN AREA END
+****************/
+
+
+/****************
+FOOTER AREA
+****************/
+footer {
+    margin-top: 0px;
+    background-color: #f8f8f8;
+}
+footer hr {
+    margin-top: 0px;
+    width: 80%;
+    height: .5px;
+    background-color: gray;
+}
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer ul:hover{
+    cursor: pointer;
+}
+footer img {
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+}
+footer ul li {
+    margin-right: 50px;
+}
